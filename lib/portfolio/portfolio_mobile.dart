@@ -81,7 +81,7 @@ class _PortfolioMobileState extends State<PortfolioMobile> {
             width: screenWidth - 20,
             child: Subheading(
               title:
-                  "Take a look at some of my selected projects showcased below\n",
+                  "Take a look at some of my selected projects showcased below",
               size: 16,
             ),
           ),

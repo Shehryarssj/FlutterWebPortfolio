@@ -79,7 +79,7 @@ class _PortfolioState extends State<Portfolio> {
           Heading(title: "PORTFOLIO", size: 80),
           Subheading(
               title:
-                  "Take a look at some of my selected projects showcased below\n",
+                  "Take a look at some of my selected projects showcased below",
               size: 20),
           Stack(
             alignment: Alignment.center,
