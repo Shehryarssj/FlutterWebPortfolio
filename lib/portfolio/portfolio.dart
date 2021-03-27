@@ -122,16 +122,19 @@ class _PortfolioState extends State<Portfolio> {
                   ),
                 ],
               ),
+              Positioned(
+                bottom: 30,
+                child: DotsIndicator(
+                  dotsCount: 3,
+                  position: _currentIndex.toDouble(),
+                  decorator: DotsDecorator(
+                    activeSize: Size.square(16),
+                    color: Colors.white,
+                    activeColor: Colors.red[400],
+                  ),
+                ),
+              ),
             ],
-          ),
-          DotsIndicator(
-            dotsCount: 3,
-            position: _currentIndex.toDouble(),
-            decorator: DotsDecorator(
-              activeSize: Size.square(16),
-              color: Colors.white,
-              activeColor: Colors.red[400],
-            ),
           ),
           SizedBox(
             height: 50,
