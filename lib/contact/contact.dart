@@ -11,7 +11,7 @@ class Contact extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Heading(title: "CONTACT", size: 100),
+          Heading(title: "CONTACT", size: 80),
           Subheading(
               title: "I would love to work on you next great project",
               size: 20),
